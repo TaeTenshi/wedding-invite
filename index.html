@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ангелина & Сергей · Жемчужная свадьба</title>
+    <!-- Подключаем CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Шрифты и Font Awesome подключаются в CSS через @import -->
+</head>
+<body>
+    
+    <!-- Шапка с приглашением и жемчугом -->
+    <header class="header">
+        <div class="header-content">
+            <div class="ornamental-divider"></div>
+            <h1 class="names">Ангелина <span class="ampersand">&</span> Сергей</h1>
+            <div class="ornamental-divider"></div>
+            
+            <h2 class="subtitle">Приглашают вас</h2>
+            <h2 class="subtitle">на бракосочетание</h2>
+            
+            <p class="date">7 августа 2026 года</p>
+            <p class="location">Ресторан "Россия", город Ульяновск</p>
+            
+            <div class="ornamental-divider"></div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </header>
+
+    <!-- Секция 1: О мероприятии + свеча слева -->
+    <section class="section">
+        <h2 class="section-title">О мероприятии</h2>
+        <div class="info-block">
+            <div class="candle-left"></div>
+            <h3><i class="far fa-heart"></i> Дорогие наши!</h3>
+            <p>Этот день — один из самых важных и трогательных в нашей жизни.</p>
+            <p>Мы так трепетно готовились…</p>
+            <p>И нам очень хочется разделить эту радость именно с вами — самыми близкими, родными и любимыми.</p>
+            <p>Спасибо, что вы есть.</p>
+            <p>Спасибо, что будете рядом.</p>
+            <p style="margin-top: 1.5rem;">До встречи в этот особенный день ❤</p>
+        </div>
+    </section>
+
+    <!-- Секция 2: Программа дня + свеча справа -->
+    <section class="section">
+        <h2 class="section-title">Программа дня</h2>
+        
+        <div class="info-block">
+            <div class="candle-right"></div>
+            <h3><i class="fas fa-list-alt"></i> Расписание торжества</h3>
+            
+            <div class="program-timeline-new">
+                <!-- Линия слева формируется CSS -->
+                
+                <div class="program-item-new">
+                    <div class="program-time-new">13:00</div>
+                    <div class="program-content-new">
+                        <h4>Сбор гостей</h4>
+                        <p>Встреча гостей у входа в ресторан</p>
+                    </div>
+                </div>
+                
+                <div class="program-item-new">
+                    <div class="program-time-new">14:00</div>
+                    <div class="program-content-new">
+                        <h4>Церемония бракосочетания</h4>
+                        <p>Торжественная церемония в банкетном зале</p>
+                    </div>
+                </div>
+                
+                <div class="program-item-new">
+                    <div class="program-time-new">15:00</div>
+                    <div class="program-content-new">
+                        <h4>Начало банкета</h4>
+                        <p>Праздничный ужин и первый танец</p>
+                    </div>
+                </div>
+                
+                <div class="program-item-new">
+                    <div class="program-time-new">17:00</div>
+                    <div class="program-content-new">
+                        <h4>Свадебный торт</h4>
+                        <p>Традиционная церемония и угощение</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- Секция 3: Место проведения + свеча слева -->
+<section class="section">
+    <h2 class="section-title">Место проведения</h2>
+    
+    <div class="info-block">
+        <div class="candle-left"></div>
+        <h3><i class="fas fa-map-marker-alt"></i> Ресторан "Россия"</h3>
+        <p>Город Ульяновск, улица Карла Маркса, 19</p>
+        
+        <div class="map-container">
+            <iframe class="map-frame" src="https://yandex.ru/maps/org/restoran_rossiya/161235221678/?from=mapframe&ll=48.392726%2C54.320584&source=mapframe&utm_source=mapframe&z=15.92" allowfullscreen></iframe>
+        </div>
+        
+        <!-- Ссылка на карту в стиле сайта -->
+        <div class="fallback-link-container">
+            <i class="fas fa-map-signal fallback-icon"></i>
+            <a href="https://yandex.ru/maps/org/restoran_rossiya/161235221678/?from=mapframe&ll=48.392726%2C54.320584&source=mapframe&utm_source=mapframe&z=15.92" 
+               target="_blank" 
+               class="fallback-link">
+                Если карта не загрузилась — откройте её в новом окне
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Секция 4: Дресс-код + свеча справа -->
+<section class="dress-code">
+    <h2 class="section-title dress-code-title">Дресс-код</h2>
+    <div class="info-block" style="margin-bottom: 0;">
+        <div class="candle-right"></div>
+        <div class="dress-code-message">
+            <i class="fas fa-lightbulb"></i> 
+            Зал будет светлым, поэтому мы будем признательны, если вы поддержите атмосферу и выберете образы в светлых тонах.
+        </div>
+    </div>
+</section>
+
+<!-- Секция 5: Анкета гостя + свеча слева -->
+<section class="guest-form-section">
+    <h2 class="section-title">Анкета гостя</h2>
+    <div style="position: relative; max-width: 900px; margin: 0 auto;">
+        <div class="candle-left" style="left: -30px; top: 50%; transform: translateY(-50%);"></div>
+        <div class="guest-form-container" style="margin-top: 0;">
+            
+            <!-- Яндекс.Форма с прозрачным фоном -->
+            <script src="https://forms.yandex.ru/_static/embed.js"></script>
+            <iframe src="https://forms.yandex.ru/u/69afbe2f84227c92d7f0dbc5?iframe=1&theme=transparent" 
+                    frameborder="0" 
+                    name="ya-form-69afbe2f84227c92d7f0dbc5" 
+                    class="ya-form-frame"
+                    style="border: none; border-radius: 20px; background: transparent; width: 100%; height: 700px;">
+            </iframe>
+            
+            <!-- Ссылка на форму в стиле сайта -->
+            <div class="fallback-link-container" style="margin-top: 1.5rem;">
+                <i class="fas fa-pen-alt fallback-icon"></i>
+                <a href="https://forms.yandex.ru/u/69afbe2f84227c92d7f0dbc5" 
+                   target="_blank" 
+                   class="fallback-link">
+                    Если форма не открывается — заполните её здесь
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="footer-names">Ангелина & Сергей</div>
+        <div class="footer-divider"></div>
+        <p class="footer-text">С благодарностью за вашу дружбу и любовь</p>
+        <p class="footer-text" style="margin-top: 2rem; font-size: 1.1rem;">7 августа 2026 года | Ресторан "Россия" | Ульяновск</p>
+    </footer>
+
+    <!-- Подключаем JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
