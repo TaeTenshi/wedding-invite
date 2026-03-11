@@ -25,7 +25,7 @@ body {
     line-height: 1.6;
     color: #2a2a2a;
     background-color: #8b6f4c;
-    background-image: linear-gradient(145deg, #a78a6a, #7a5f40);
+    background-image: linear-gradient(145deg, #bd9e6fbe, #7a5f40);
     overflow-x: hidden;
     font-weight: 300;
     letter-spacing: 0.3px;
@@ -40,9 +40,9 @@ h1, h2, h3, h4 {
 /* Шапка с жемчужной картинкой */
 .header {
     background: 
-        linear-gradient(rgba(107, 67, 44, 0.85), rgba(74, 58, 42, 0.9)),
-        url('pearl2.webp');
-    background-size: cover, 3000px auto;
+        linear-gradient(rgba(219, 189, 125, 0.534), rgba(74, 58, 42, 0.9)),
+        url('head-background.jpg');
+    background-size: cover, 2600px auto;
     background-position: center, center 30%;
     background-repeat: no-repeat, repeat;
     min-height: 100vh;
@@ -75,7 +75,7 @@ h1, h2, h3, h4 {
     max-width: 900px;
     padding: 3rem;
     border: 1px solid var(--silver);
-    background-color: rgba(245, 230, 211, 0.7);
+    background-color: rgba(245, 230, 211, 0.267);
     backdrop-filter: blur(5px);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
