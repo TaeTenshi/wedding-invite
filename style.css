@@ -446,9 +446,53 @@ h1, h2, h3, h4 {
     .candle-right {
         right: -20px;
     }
+    .header-content {
+        max-width: 400px;
+        padding: 0.8rem;    
+        margin: 0 auto;    
+    }
 }
 
 @media (max-width: 768px) {
+    .header-content {
+        max-width: 200px;
+        padding: 0.8rem;    
+        margin: 0 auto;    
+    }
+    .header-content .names {
+        font-size: 1.5rem;        
+        line-height: 1.2;
+        margin-bottom: 0.3rem;
+    }
+    
+    .header-content .ampersand {
+        font-size: 1.5rem;        
+        margin: 0 5px;
+    }
+    
+    .header-content .subtitle {
+        font-size: 0.9rem;        
+        margin-bottom: 0.3rem;
+        letter-spacing: 1px;
+    }
+    
+    .header-content .date {
+        font-size: 0.9rem;      
+        margin-bottom: 0.3rem;
+    }
+    
+    .header-content .location {
+        font-size: 0.8rem;        
+    }
+    
+    .header-content .ornamental-divider {
+        width: 80px;             
+        margin: 0.5rem auto;
+    }
+    
+    .header-content .subtitle:first-of-type {
+        margin-top: 0;
+    }
     .names {
         font-size: 2.8rem;
     }
